@@ -24,7 +24,7 @@ const navigate=useNavigate()
 
   const fetchData = async () => {
     try {
-      const response = await axios.get('http://localhost:7010/api/feedposts/feedposts');
+      const response = await axios.get('https://backendxyz.vercel.app//api/feedposts/feedposts');
       // console.log(response.data.Feedpost)
       const data=response.data
       console.log("this is data",data)
