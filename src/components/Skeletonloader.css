@@ -1,0 +1,25 @@
+/* SkeletonLoader.css */
+.skeleton-loader {
+    width: 100%;
+  }
+  
+  .skeleton-row {
+    height: 20px; /* Adjust height as needed */
+    background-color: #dad9d9; /* Background color for the skeleton */
+    margin-bottom: 10px; /* Margin between skeleton rows */
+  }
+  
+  /* Animation for skeleton loader */
+  @keyframes skeleton-animation {
+    0% {
+      background-position: -200px 0;
+    }
+    100% {
+      background-position: 200px 0;
+    }
+  }
+  
+  .skeleton-row {
+    animation: skeleton-animation 1.5s infinite linear; /* Adjust animation duration as needed */
+  }
+  

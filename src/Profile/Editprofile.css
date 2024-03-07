@@ -1,0 +1,20 @@
+.action-buttons
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.action-buttons button
+{
+    width: 250px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    gap: 10px;
+    background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+{
+  
+  "courses": [
+    {
+      "title": "Python Basics",
+      "description": "Learn the fundamentals of Python programming.",
+      "image": "images/Python/basicpython.png",
+      "price": "5000 INR"
+    },
+    {
+      "title": "Advanced Python Programming",
+      "description": "Deepen your Python skills with advanced concepts.",
+      "image": "images/Python/Advancepython.jpeg",
+      "price": "7000 INR"
+    },
+    {
+      "title": "Machine Learning Fundamentals with Python",
+      "description": "Introduction to machine learning using Python.",
+      "image": "images/Python/machinelearning.png",
+      "price": "10000 INR"
+    },
+    {
+      "title": "Artificial Intelligence with Python",
+      "description": "Explore AI concepts and applications in Python.",
+      "image": "images/Python/ai.jpeg",
+      "price": "12000 INR"
+    }
+  ]
+}

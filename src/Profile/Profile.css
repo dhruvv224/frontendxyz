@@ -1,0 +1,119 @@
+/* Common styles */
+.back-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    transition: background-color 0.8s ease;
+}
+
+.back-icon {
+    width: 50px;
+}
+
+.profile-heading {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    min-height: 50px;
+}
+
+.cover-photo {
+    background-color: rgba(162, 185, 196, 0.603);
+    padding-bottom: 150px; /* Adjust as needed */
+}
+
+.profile-avatar {
+    width: 100px;
+}
+
+/* Responsive styles */
+.profile-container {
+    width: 40%; /* Adjust as needed */
+    margin: 0 auto; /* Center the container */
+    padding-bottom: 50px; /* Adjust as needed */
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+
+}
+
+.profile-section {
+    margin-left: 10px;
+    position: relative;
+    padding-bottom: 20px;
+    /* border-bottom: 1px solid gray; */
+
+}
+
+.editprofile {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px; /* Adjust as needed */
+    cursor: pointer;
+}
+
+/* Media query for mobile */
+@media screen and (max-width: 600px) {
+    .profile-container{
+        width: 90%;
+    }
+    .profile-heading {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    .profile-avatar {
+        width: 80px; /* Adjust avatar size */
+    }
+
+    .editprofile {
+        width: 100px; /* Adjust button size */
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+}
+.features
+{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    
+    
+}
+.Features-buttons
+{
+    
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    /* border-radius: 15px; */
+}
+.Features-buttons:hover
+{
+    background-color: rgba(192, 190, 190, 0.705);
+}
+/* .Your-posts:active
+{
+    text-decoration: underline;
+} */
+
+
+.profile
+    
+{
+    width:150px;
+    height:150px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+.features-display
+{
+    padding-bottom: 100px;
+}

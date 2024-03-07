@@ -1,0 +1,82 @@
+/* Assuming your carousel container has a class 'carousel-container' */
+.carousel-container {
+    width: 80%; /* Adjust the width as needed */
+    margin: auto; /* Center the carousel on the page */
+    margin-bottom: 30px;
+  }
+  
+  /* Style the carousel slides (individual images) */
+  .slick-slide {
+    text-align: center; /* Center the images within the slide */
+  }
+  
+  /* Style the images inside the slides */
+  .slick-slide img {
+    width: 100%; /* Make sure the image fills the entire width of the slide */
+    height: auto; /* Maintain the aspect ratio */
+  }
+  
+  /* Style the arrow buttons */
+  .custom-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px; /* Adjust the font size of the arrow icons */
+    color: white; /* Set the color of the arrow icons */
+    background-color: #333; /* Set the background color of the arrow buttons */
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Adjust the styles for the left and right arrow buttons */
+  .custom-arrow.prev {
+    left: 10px;
+  }
+  
+  .custom-arrow.next {
+    right: 10px;
+  }
+  .heading-title
+  {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+
+
+
+  }
+  .Companies{
+    background-color:rgb(255, 252, 252);
+  }
+  .learn-search
+  {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+
+  }
+  .Learning-searchabar
+  {
+    width:40%;
+    height: 50px;
+    border: 1px solid black;
+  }
+  .learning-search-button
+  {
+    border:1px solid black;
+    width: 10%;
+    cursor: pointer;
+    background-color:rgb(0, 89, 255) ;
+    transition:background-color 0.5s ease;
+  }
+  .learning-search-button:hover
+  {
+    background-color: #0566b6;
+  }
+.Courses-title
+{
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}

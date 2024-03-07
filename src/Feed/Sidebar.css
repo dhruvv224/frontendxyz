@@ -1,0 +1,105 @@
+/* Sidebar.css */
+
+.sidebar-container {
+  background-color: #ffffff;
+  width: 300px;
+ 
+  margin-bottom: 0px;
+  padding: 20px;
+ border-radius:25px;
+
+
+
+}
+
+.profile2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h6 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.profile h6.username {
+  font-size: 16px;
+  color: #666;
+}
+
+.sidebar-section {
+  margin-top: 20px;
+}
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s border-radius 0.3s ease;
+}
+/* .post-button
+{
+ margin-top: 20px;
+  margin-left: 100px;
+} */
+.post-button2
+{
+
+  margin-top: 10px;
+  
+
+
+}
+.post-button2 button{
+  width: 300px;
+  border-radius: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: #1953B6;
+  transition: background-color 0.3s border-radius 0.3s ease;
+  font-size: 25px;
+  font-weight: 400;
+}
+.post-button2:hover
+{
+  background-color:#1542aa ;
+  border-radius: 50px;
+}
+.sidebar-link:hover {
+  background-color: #ddd;
+  border-radius: 25px;
+}
+
+.sidebar-link.active {
+  background-color: #bbb;
+}
+
+.sidebar-icon {
+  width: 25x;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.sidebar-link
+{
+  text-decoration: none;
+  color: inherit; /* Inherit text color from parent */
+
+}
+.sidebar-link:hover{
+  text-decoration: none;
+  color: none;
+}

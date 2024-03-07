@@ -1,0 +1,67 @@
+/* Add this to your CSS file */
+
+.Main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .headingforimg {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .headingforimg span {
+    color: #007bff; /* or your desired color */
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for each city */
+  .banglore,
+  .delhi,
+  .Ahemdabad,
+  .Pune {
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+   
+  }
+  
+  /* Style for city images */
+  .banglore img,
+  .delhi img,
+  .Ahemdabad img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for city names */
+  .banglore h4,
+  .delhi h4,
+  .Ahemdabad h4,
+  .Pune h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .Pune img {
+    width: 100%;
+    height: 250px; /* Set your desired height */
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

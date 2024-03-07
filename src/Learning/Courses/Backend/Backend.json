@@ -1,0 +1,48 @@
+{
+    "basePath": "./Learning/Courses/backenddevelopment/",
+    "courses": [
+      {
+        "title": "Node.js Fundamentals",
+        "description": "Learn the basics of server-side development with Node.js.",
+        "image": "images/backend-dev/nodejs-fundamentals.jpg",
+        "price": "4500 INR"
+      },
+      {
+        "title": "Express.js: Building Web APIs",
+        "description": "Build scalable and robust web APIs with Express.js.",
+        "image": "images/backend-dev/expressjs-web-apis.png",
+        "price": "5500 INR"
+      },
+      {
+        "title": "Database Management with MongoDB",
+        "description": "Master database management using MongoDB for backend development.",
+        "image": "images/backend-dev/mongodb-database-management.jpg",
+        "price": "5000 INR"
+      },
+      {
+        "title": "RESTful API Design Principles",
+        "description": "Explore the principles of designing RESTful APIs for web applications.",
+        "image": "images/backend-dev/restful-api-design.jpg",
+        "price": "4000 INR"
+      },
+      {
+        "title": "Authentication and Authorization",
+        "description": "Understand authentication and authorization mechanisms for secure backend development.",
+        "image": "images/backend-dev/authentication-authorization.png",
+        "price": "6000 INR"
+      },
+      {
+        "title": "Server-Side Rendering with Next.js",
+        "description": "Implement server-side rendering using Next.js for React applications.",
+        "image": "images/backend-dev/nextjs-ssr.jpg",
+        "price": "7000 INR"
+      },
+      {
+        "title": "Scalable Microservices Architecture",
+        "description": "Design and implement scalable microservices architecture for backend systems.",
+        "image": "images/backend-dev/microservices-architecture.jpg",
+        "price": "8000 INR"
+      }
+    ]
+  }
+  

@@ -1,0 +1,48 @@
+{
+   
+    "courses": [
+      {
+        "title": "Modern HTML5 and CSS3",
+        "description": "Master the latest features of HTML5 and CSS3 for modern web development.",
+        "image": "images/frontend-dev/html5-css3.jpg",
+        "price": "3500 INR"
+      },
+      {
+        "title": "JavaScript Fundamentals",
+        "description": "Build a strong foundation in JavaScript programming.",
+        "image": "images/frontend-dev/javascript-fundamentals.png",
+        "price": "4500 INR"
+      },
+      {
+        "title": "React.js for Beginners",
+        "description": "Get started with React.js and build interactive user interfaces.",
+        "image": "images/frontend-dev/reactjs-beginners.jpg",
+        "price": "5500 INR"
+      },
+      {
+        "title": "Responsive Web Design with Flexbox and Grid",
+        "description": "Learn advanced techniques for responsive web design using Flexbox and Grid.",
+        "image": "images/frontend-dev/responsive-flexbox-grid.jpg",
+        "price": "4000 INR"
+      },
+      {
+        "title": "Advanced CSS: SASS and BEM",
+        "description": "Explore advanced CSS concepts with SASS and BEM methodology.",
+        "image": "images/frontend-dev/sass-bem.jpg",
+        "price": "5000 INR"
+      },
+      {
+        "title": "Vue.js Essentials",
+        "description": "Discover the essentials of Vue.js for building dynamic and interactive web applications.",
+        "image": "images/frontend-dev/vuejs-essentials.png",
+        "price": "6000 INR"
+      },
+      {
+        "title": "Web Accessibility Fundamentals",
+        "description": "Ensure your websites are accessible to all users with web accessibility fundamentals.",
+        "image": "images/frontend-dev/web-accessibility.jpg",
+        "price": "3500 INR"
+      }
+    ]
+  }
+  

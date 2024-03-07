@@ -1,0 +1,162 @@
+/* CSS for Messages container */
+
+.Messages-container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  
+
+    margin: 20px;
+    display: flex;
+   width: auto;
+   flex-direction: column;
+   max-height: 450px;
+   overflow-y: auto;
+   padding-right: 10px;
+ 
+    
+}
+
+.messages-header {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.messages-header h4 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+.search-icon
+{
+    width: 20px;
+    display: flex;
+    gap: 1rem;
+    margin-right: 5px;
+    margin-left: 6px;
+}
+.search-bar2
+{
+    border: none;
+    width: 230px;
+    background-color: #fafafa;
+
+    
+    border-radius: 20px;
+}
+.Search-message
+{
+    height: 40px;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+.Search-message input[type="text"] {
+    outline: none; 
+}
+.messages
+{
+    margin-top: 20px;
+   
+    
+}
+.user-profile
+{
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.message h6,
+.message p{
+    margin: 0;
+}
+.message p{
+    margin-left: auto;
+    
+
+}
+.message-content {
+    display:inline-block;
+    
+}
+.message
+{
+    display: flex;
+    transition: background-color 0.3s border-radius 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+
+}
+.message:hover
+{
+    background-color: #eeeeee;
+    border-radius: 20px;
+}
+.Requests-container
+{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 1px 2px 4px rgba(0.5, 0.8, 0.9, 0.3);
+    padding: 20px;
+
+    margin: 20px;
+    display: flex;
+   width: auto;
+   flex-direction: column;
+  
+   padding-right: 10px;
+}
+.request{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.request-info
+{
+    display: inline-block;
+}
+.Reqest-button
+{
+    display: flex;
+    gap: 20px;
+   
+    
+}
+.req-button1{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+   margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);; /* Yellow background */
+    border: none;
+    outline: none;
+}
+.req-button:focus
+{
+    outline: none;
+}
+.req-button2{
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+   margin-right: 10px;
+    color: rgb(24, 24, 24);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color:#cfcfcf;
+    border: none;
+    outline: none;
+}
+.req-button2:hover
+{
+    background-color:#bbbbbb
+}

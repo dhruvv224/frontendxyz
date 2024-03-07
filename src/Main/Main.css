@@ -1,0 +1,255 @@
+/* Main.css */
+
+/* Global reset or base styles */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* YourComponent.css */
+
+/* Main container */
+.main {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Hero section */
+.hero-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 500px; /* Adjust as needed */
+  border-radius: 10px;
+}
+
+/* Background image */
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Content inside the hero section */
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  text-align: center;
+  color: #fff;
+}
+
+/* Search container styles */
+.search-container1 {
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+/* Search bar styles */
+.searchbar1 {
+  width: 350px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Search button styles */
+.button-search {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid rgb(0, 89, 255);
+  border-radius: 0 5px 5px 0;
+  background-color: rgb(0, 89, 255);
+  color: #fff;
+  cursor: pointer;
+  margin-right: 300px;
+}
+
+.button-search:hover {
+  background-color: rgb(28, 102, 240);
+}
+
+/* 'Get Started' button styles */
+.started {
+  background-color: rgb(0, 89, 255);
+  width: 100px;
+  height: auto;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+.headding-title {
+  color: black;
+  font-size: 60px;
+}
+
+.Popularsearches {
+  margin-bottom: 70px;
+}
+
+span {
+  color: rgb(0, 89, 255);
+}
+
+p {
+  font-size: large;
+  color: rgb(88, 126, 156);
+}
+
+.imgplaceholder {
+  text-align: center;
+}
+
+.circle-container {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+  background-color: rgb(233, 238, 241);
+}
+
+.circle-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.upper-font {
+  font-weight: 2000;
+}
+
+/* Box Container */
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  gap: 20px;
+}
+
+.Boxe1,
+.Boxe2,
+.Boxe3,
+.Boxe4 {
+  background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+  color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  max-width: 350px;
+  width: 100%;
+  text-align: center;
+  margin-left: 40px;
+  height: 100%;
+}
+
+.Boxe1:hover,
+.Boxe2:hover,
+.Boxe3:hover,
+.Boxe4:hover {
+  transform: scale(1.05);
+}
+
+.Boxe1 img,
+.Boxe2 img,
+.Boxe3 img,
+.Boxe4 img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+/* Heading styling */
+.Boxe1 h3,
+.Boxe2 h3,
+.Boxe3 h3,
+.Boxe4 h3 {
+  color: #333;
+  margin: 15px 0 10px;
+}
+
+/* Paragraph styling */
+.Boxe1 p,
+.Boxe2 p,
+.Boxe3 p,
+.Boxe4 p {
+  color: #666;
+  margin: 0 15px 15px;
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .Boxe1,
+  .Boxe2,
+  .Boxe3,
+  .Boxe4 {
+    width: 500px;
+    margin-right: 40px;
+  }
+
+  .headding-title {
+    font-size: 35px;
+  }
+  .get-started{
+    margin-left:0;
+
+  }
+}
+
+.intro {
+  background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+  padding-bottom: 20px;
+  display:block;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-heading {
+  margin-top: 50px;
+  color: white;
+  font-size: 60px;
+  justify-content: space-around;
+
+  text-align: center;
+}
+
+.brief-info {
+  color: white;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+.get-started {
+  margin-top: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 170px;
+  height: 45px;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+  background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+}

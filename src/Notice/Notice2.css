@@ -1,0 +1,50 @@
+/* Notice2.css */
+
+.notice-dialog2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .notice-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  .notice-content h5 {
+    margin-top: 0;
+    font-size: 1.2rem;
+  }
+  
+  .notice-content p {
+    margin-bottom: 10px;
+  }
+  
+  .notice-content ol {
+    margin-bottom: 5px;
+  }
+  
+  .notice-content button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .notice-content button:hover {
+    background-color: #0056b3;
+  }
+  

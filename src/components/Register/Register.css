@@ -1,0 +1,211 @@
+/* Register container styles */
+.Register-container {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    height: 100vh;
+    /* background: linear-gradient(to right, #ffffff, #0468d3); */
+    /* background-image: url("./Assets/bg-img.png") center center/cover; */
+    background-color: #f5f5f5; /* Set your preferred background color */
+  }
+  
+  .registration-container {
+    /* background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895); */
+
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Register box styles */
+  .Register-box {
+
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Set your preferred box background color */
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Input and button styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .toggle-password {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* Add icon or styling for the show/hide password button */
+  }
+  #Register-button
+  {
+    /* background-color:rgb(0, 89, 255); */
+    background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+
+  }
+ 
+  
+  #Register-button:hover {
+    background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+
+  }
+  
+  /* Login link styles */
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+/* Register container styles */
+.Register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background-color: #f5f5f5; /* Set your preferred background color */
+  }
+  
+  /* Register box styles */
+  .Register-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+   
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* Set your preferred box background color */
+    max-width: 400px;
+    width: 90%;
+  }
+  
+  /* Input and button styles */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .toggle-password {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    /* Add icon or styling for the show/hide password button */
+  }
+  
+  /* Button styles */
+  #Register-button 
+    {
+      width: 100%; /* Input fields will take the full width of the parent container */
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      color: white;
+      
+      border: 1px solid #ccc;  
+    }
+  
+  
+  /* Login link styles */
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-link a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+.password-input-container{
+    border-radius: 30px;
+}
+/* .Register-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+} */
+/* 
+/* .Welcome-info {
+  flex: 1;
+  margin-right: 20px; Adjust as needed */
+
+  @media (max-width: 768px) {
+    .Register-container {
+        flex-wrap: wrap;
+        /* Adjust padding for mobile */
+        margin-bottom: 200px;
+    }
+
+    .Register-box {
+       /* Make box full width on mobile */
+    }
+    
+}
+.Welcome-info
+{
+  /* padding-right: 100px; */
+}
+.Welcome-info {
+  text-align: center; /* Center-align the content */
+  padding: 20px; /* Add padding for spacing */
+  background-color: #f5f5f5; /* Set background color */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.Welcome-info h2 {
+  color: #007bff; /* Set the color for the heading */
+}
+
+.Welcome-info p {
+  font-size: 16px; /* Set font size */
+  line-height: 1.5; /* Set line height for readability */
+  color: #333; /* Set text color */
+}
+
+.Welcome-info span {
+  color: #007bff; /* Set color for the highlighted span */
+  font-weight: bold; /* Make the text bold */
+
+}
+button:focus
+{
+  outline: none;
+}
+input:focus
+{
+  outline: none;
+}

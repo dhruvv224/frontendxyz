@@ -1,0 +1,99 @@
+/* Company card styles */
+.company-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .company-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .company-card h2 {
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  
+  .company-card h3 {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 12px;
+  }
+  
+  .company-card p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Interaction buttons */
+  .explore-button,
+  .save-button {
+    padding: 8px 16px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .explore-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .save-button {
+    background-color: #FFA500;
+    color: white;
+  }
+  .companies-container {
+    text-align: center;
+  }
+  
+  .companies-img-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .companies-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .Explore
+{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(0, 89, 255);
+  transition: background-color();
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  align-items: center;
+
+}
+.Save
+{
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(0, 89, 255);
+  transition: background-color();
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: center;
+  align-items: center;
+
+}
+  

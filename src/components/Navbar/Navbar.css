@@ -1,0 +1,154 @@
+/* Navbar Custom Styling */
+
+/* Navbar Background and Brand */
+/* Navbar Custom Styling */
+
+.navbar-brand {
+  margin-right: auto; /* Align the brand/logo to the left */
+  font-family: 'Arial', sans-serif; /* Change font family for the brand/logo */
+  font-size: 24px; /* Change font size for the brand/logo */
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Arial', sans-serif; /* Change font family for nav links */
+  font-size: 25px; /* Change font size for nav links */
+  margin: 0 10px; /* Adjust space around nav links */
+
+}
+.Employers
+{
+  margin-left: 40px;
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 35px;
+  color: rgb(0, 102, 235);
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* Buttons */
+.btn-register,
+.btn-login {
+  font-family: 'Arial', sans-serif; /* Change font family for buttons */
+  font-size: 16px; /* Change font size for buttons */
+  margin: 0 10px; /* Adjust space around buttons */
+  /* Add more button styling if needed */
+}
+
+
+.navbar {
+  background-color: #ffffff;
+  /* background-image: linear-gradient(to right, #f4f4f4, #f4f4f4, #f5f5f5, #f5f5f5, #f5f5f5); */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Increased shadow effect */
+  display: flex;
+  padding: 10px;
+}
+.brand-icon
+{
+  width: 85px;
+}
+
+.navbar-brand img {
+  height: 40px; /* Set your desired height for the logo */
+  width: auto;
+}
+
+/* Navbar Links and Dropdown */
+
+
+/* Buttons */
+.btn-register,
+.btn-login {
+  background-color: #ffffff; /* White buttons */
+  color: rgb(0, 89, 255); /* Yellow text color */
+  border: 1px solid #ffffff; /* White border */
+  transition: all 0.3s ease;
+}
+
+.btn-register:hover,
+.btn-login:hover {
+  background-color: #f8f9fa; /* Lighter white on hover */
+  color: rgb(0, 89, 255); /* Yellow text color on hover */
+}
+
+/* Navbar styles for large screens */
+@media (min-width: 768px) {
+  /* Add your styles for large screens here */
+}
+
+/* Navbar styles for small screens */
+@media (max-width: 767px) {
+  /* Adjust navbar items alignment */
+  .navbar-nav {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* Reduce margin between navbar items */
+  .navbar-nav .nav-item {
+    margin-bottom: 10px;
+  }
+
+  /* Align form items to the center */
+  .form-inline {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* Adjust margin between form items */
+  .form-inline .btn {
+    margin: 5px;
+  }
+
+  /* Adjust styles for the "For Employers" button */
+  .for-employers {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  /* Adjust button size */
+  .for-employers .Employers {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+.navlinks-icons
+{
+  width: 15px;
+}
+.nav-text
+{
+  /* In your CSS file */
+  color: black;
+  display:block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+
+
+}
+.nav-buttons
+{
+
+  margin-right: 15px;
+  width: 110px;
+  border-radius: 25px;
+  color: white;
+  border: none;
+  background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+  height: 35px;
+  cursor: pointer;
+}
+.nav-link.active
+{
+  border-bottom: 5px solid #2462ea;
+ 
+
+  transition: border-bottom 0.3s ease;
+}
+.nav-link.active:active
+{
+  border-bottom: 5px solid #2462ea;
+  width: 110%;
+}

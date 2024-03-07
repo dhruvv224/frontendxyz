@@ -1,0 +1,14 @@
+.inputs
+{
+    margin-bottom: 5px;
+    width: 200px;
+    justify-content: center;
+    /* margin-left: 40px; */
+}
+.modal-body
+{
+    justify-content: center;
+}
+input:focus{
+    outline: none;
+}

@@ -1,0 +1,93 @@
+
+.headingline
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 50px;
+  
+}
+.Hero-heading
+{
+    font-size: 60px;
+
+}
+
+.Paragraph
+{
+    font-size: x-large;
+    color: rgb(68, 68, 68);
+}
+.feature-highlights
+{
+    background-color: rgb(0, 90, 226);
+    padding-bottom: 30px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+.Paragraph2
+{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+.employers-register
+{
+    border: none;
+    background-color: white;
+    width:150px;
+    border-radius: 40px;
+    margin-top: 30px;
+    margin-right: 300px;
+    margin-left: 10px;
+    cursor: pointer;
+
+    
+}
+.employers-login
+{
+    border: none;
+    background-color: white;
+    width:150px;
+    border-radius: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+.perks
+{
+    padding-bottom: 300px;
+    text-align: center;
+
+}
+.perks-container
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* padding-bottom: 80px; */
+}
+.perk{
+    width: 30%;
+    border: 0.1px solid rgb(241, 241, 241);
+    background-color: #f2f2f2 ;
+    border-radius: 20px;
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+
+.perk-button
+{
+    background-color:rgb(0, 89, 255) ;
+    color: white;
+    cursor: pointer;
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+}

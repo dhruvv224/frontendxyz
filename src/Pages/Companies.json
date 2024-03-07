@@ -1,0 +1,78 @@
+{
+    "companies": [
+      {
+        "id": 1,
+        "Companyname": "Electrotherm India",
+        "industry": " Engineering",
+        "description": "Started in 2004 in Kutch, Gujarat, Electrotherm is a global company in the metal melting industry.",
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "Companyname": "GTPL Hathway",
+        "industry": "Advertising, Media",
+        "description": "Founded in 2006, GTPL Hathway is India’s largest digital cable TV provider and the 6th largest private wireline broadband service provider.",
+        "rating": 3.8
+      },
+      {
+        "id": 3,
+        "Companyname": "Zydus Lifesciences ",
+        "industry": "Healthcare",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 4,
+        "Companyname": "Silicon It hub ",
+        "industry": "It",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "Companyname": "It path system",
+        "industry": "software",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "Companyname": "top Software  ",
+        "industry": "Software",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "Companyname": "tatvasoft ",
+        "industry": "Software",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "Companyname": "Next Gen",
+        "industry": "Marketing Agency",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "Companyname": "Space x",
+        "industry": "sales Agency",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "Companyname": "Maruti Technolabs",
+        "industry": "Information Technology",
+        "description": "Founded in 1995, Zydus Group is headquartered in Ahmedabad. It is a prominent Companyname in the pharmaceutical industry, ranking 4th in India",
+        "rating": 4.2
+      }
+      
+      
+      
+    ]
+  }
+  

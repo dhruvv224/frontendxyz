@@ -1,0 +1,64 @@
+.searchterm-list
+{
+    cursor: pointer;
+}/* styles.css */
+
+/* Add styling for the card, card-body, and card-title if necessary */
+.card {
+    border-radius: 50px;
+    box-shadow: #333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    /* Your card styles */
+  }
+  
+  .card-body {
+    /* Your card body styles */
+  }
+  
+  .card-title {
+    /* Your card title styles */
+  }
+  
+  /* .image-container {
+    position: relative;
+    display: flexbox;
+  } */
+  
+  .search-term-pill {
+    background-color: #deecf5;
+    color: #333;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-term-pill:hover {
+    background-color: #7ec9f5;
+  }
+  @media only screen and (max-width: 600px) {
+    /* Your responsive styles for mobile */
+    .container {
+        /* Example: Adjusting container width */
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+.pill-container
+{
+    border-radius: 25px;
+    height: auto;
+    border: 2px;
+}
+.card
+{
+    background-color: rgb(246, 251, 255);
+}
+span{
+  display: inline;
+}

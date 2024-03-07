@@ -1,0 +1,30 @@
+{
+    "courses": [
+      {
+        "title": "Project Management In one video",
+        "description": "Learn the basics of React.js in this comprehensive crash course designed for beginners.",
+        "url": "https://youtu.be/TRxe9jiqtEU?si=1GQE6wXcrMwR6uc_"
+      },
+      {
+        "title": "Digital marketing",
+        "description": "A complete React.js course covering fundamental concepts, hooks, context API, React Router, and custom hooks.",
+        "url": "https://youtu.be/Ph3d_kwcNAY?si=k7S7zdTOffZfdM9v"
+      },
+      {
+        "title": "AI introduction of an AI Full Course",
+        "description": "Explore React Context and Hooks in this tutorial, which covers state management and component communication in React applications.",
+        "url": "https://www.youtube.com/watch?v=35lXWvCuM8o"
+      },
+      {
+        "title": "Pyhon basic to advanced guide compelte course",
+        "description": "Learn how to build a real-time chat application using React.js and Firebase in this hands-on tutorial.",
+        "url": "https://youtu.be/obhkN9jFb7g?si=_48A0C8QyfE6To0o"
+      },
+      {
+        "title": "Full Stack Development",
+        "description": "Discover how to use React Router to add routing capabilities to your React applications in this tutorial.",
+        "url": "https://youtu.be/TCEyeVbANx0?si=A7-xygyWs6srF4Gt"
+      }
+    ]
+  }
+  

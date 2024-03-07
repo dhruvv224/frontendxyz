@@ -1,0 +1,48 @@
+{
+    "basePath": "./Learning/Courses/webdevelopment/",
+    "courses": [
+      {
+        "title": "HTML and CSS Fundamentals",
+        "description": "Learn the basics of HTML and CSS for web development.",
+        "image": "images/web-dev/html-css.jpg",
+        "price": "3000 INR"
+      },
+      {
+        "title": "JavaScript Essentials",
+        "description": "Explore essential concepts of JavaScript programming language.",
+        "image": "images/web-dev/js.png",
+        "price": "4000 INR"
+      },
+      {
+        "title": "Responsive Web Design",
+        "description": "Master the art of designing responsive and mobile-friendly websites.",
+        "image": "images/web-dev/responsive.png",
+        "price": "4500 INR"
+      },
+      {
+        "title": "Frontend Frameworks: React",
+        "description": "Deep dive into building modern web applications with React.",
+        "image": "images/web-dev/Reactjs.jpg",
+        "price": "6000 INR"
+      },
+      {
+        "title": "Backend Development with Node.js",
+        "description": "Learn server-side development using Node.js.",
+        "image": "images/web-dev/Nodejs.png",
+        "price": "5500 INR"
+      },
+      {
+        "title": "Database Design and SQL",
+        "description": "Master the principles of database design and SQL queries.",
+        "image": "images/web-dev/sql.jpeg",
+        "price": "5000 INR"
+      },
+      {
+        "title": "Full Stack Web Development",
+        "description": "Become a full-stack developer with a comprehensive course.",
+        "image": "images/web-dev/Fullstack.jpg",
+        "price": "8000 INR"
+      }
+    ]
+  }
+  

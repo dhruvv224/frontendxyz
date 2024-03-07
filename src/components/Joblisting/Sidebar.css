@@ -1,0 +1,47 @@
+/* Sidebar.css */
+
+.sidebar-container {
+    border: 1px solid #ccc; /* Border around the sidebar */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    width: 400px;
+    margin-bottom:40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow */
+  }
+  
+  .headings {
+    margin-bottom: 10px;
+  }
+  
+  .headings h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .filter-option {
+    margin-bottom: 20px;
+  }
+  
+  /* Add borders between filters */
+  .filter-option:not(:last-child) {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 15px;
+  }
+  @media screen and (max-width: 768px) {
+    .sidebar-container {
+     /* Ensure the sidebar takes full width on smaller screens */
+      padding: 0 20px; /* Add padding for better readability */
+       /* Initially collapsed on smaller screens */
+      overflow: hidden; /* Hide overflow content */
+    }
+  
+    .sidebar-container h5 {
+      cursor: pointer; /* Show pointer cursor for collapsible header */
+    }
+  
+    .filter-option label {
+      display: block; /* Display labels in a block to ensure proper spacing */
+    }
+  }
+  

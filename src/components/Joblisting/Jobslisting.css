@@ -1,0 +1,77 @@
+.job-card {
+  background-color: #f0f0f0;
+  
+  border-radius: 8px;
+  border: 1px solid rgb(185, 185, 185);
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  /* display: flex; */
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 600px;
+  
+  margin-bottom: 20px;
+}
+.list-jobs
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.job-card h2 {
+  margin-top: 0;
+}
+
+.job-card p {
+  margin-bottom: 10px;
+}
+
+.job-card .icon {
+  margin-right: 5px;
+}
+
+.job-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-buttons button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  background-image: linear-gradient(to right bottom, #2462ea, #2057d4, #1b4cbf, #1542aa, #0f3895);
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+  .job-list {
+    display: grid;
+    grid-template-columns: 1fr; /* Change the grid to a single column layout */
+    gap: 20px;
+    /* margin-right:auto; */
+
+    margin-right: 160px;
+
+    padding: 0 20px; /* Add padding to the sides for better spacing */
+  }
+
+  .job-card {
+/* /    padding: 20px; Adjust padding as needed */
+    width: 340px;
+     /* Ensure cards take up the full width of the grid cell */
+  }
+
+  .job-buttons {
+    flex-direction: column; /* Stack buttons vertically */
+  }
+
+  .job-buttons button {
+    width: 100%; /* Make buttons fill the available width */
+    margin-top: 10px; /* Add spacing between buttons */
+  }
+}
+
